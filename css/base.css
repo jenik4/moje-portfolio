@@ -1,0 +1,48 @@
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    padding: var(--space-md, --space-md);
+}
+
+a:hover{
+    color: var(--color-secondary);
+    
+}
+h1{
+  font-size: var(--font-size-xxl);
+}
+
+h2{
+  font-size: var(--space-lg);
+}
+
+
+ h1, h2{
+     background: var(--color-gradient);
+      background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+
+  h3{
+    font-size: var(--font-size-lg);
+    display: flex;
+    text-align: left;
+    padding-left: var(--space-md);
+    
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
