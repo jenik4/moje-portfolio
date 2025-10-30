@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
   
   
 }
@@ -14,12 +15,13 @@ body{
 
 .container {
      width: 90%;        
-      max-width: 800px;  
+      max-width: 1200px;  
       margin: 0 auto;    
       padding: var(--space-xl);
       text-align: center;
       padding-bottom: 0;
-      box-sizing: border-box;
+      
+
   
     }
 
