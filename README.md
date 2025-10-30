@@ -1,1 +1,1 @@
-[Mé portfolio](https://jenik4.github.io/portfolio-project/)
+[Mé portfolio](https://jenik4.github.io/moje-portfolio/)
