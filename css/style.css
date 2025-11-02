@@ -1,5 +1,5 @@
-@import "/css/base.css";
-@import "/css/components.css";
-@import "/css/theming.css";
-@import "/css/utilities.css";
-@import "/css/reset.css";
+@import "./base.css";
+@import "./components.css";
+@import "./reset.css";
+@import "./theming.css";
+@import "./utilities.css";
