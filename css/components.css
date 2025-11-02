@@ -187,11 +187,13 @@
 }
 
 #backToTop:hover {
-  background: var(--color-header);
+  background: var(--color-borders);
   transform: translateY(-3px);
 }
 
-
+.text-color{
+  color: var(--color-border3);
+}
 
 @media (max-width: 1024px) {
     .grid-container, .small-grid-container {grid-template-columns: 1fr 1fr;}
