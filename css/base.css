@@ -22,7 +22,6 @@ h2{
   font-size: var(--space-lg);
 }
 
-
  h1, h2{
      background: var(--color-gradient);
       background-clip: text;
@@ -31,7 +30,6 @@ h2{
     -webkit-text-fill-color: transparent;
     text-align: center;
   }
-
 
   h3{
     font-size: var(--font-size-lg);
@@ -58,7 +56,7 @@ h2{
   text-align: center;
   justify-content: center;
   display: flex;
-  padding-left: 0; /* odstraní to původní odsazení z base.css */
+  padding-left: 0; 
 }
 
 @media (max-width: 768px) {

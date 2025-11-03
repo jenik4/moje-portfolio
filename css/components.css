@@ -19,25 +19,6 @@
   border-radius: var(--radius-lg);
 }
 
-.map-container {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; 
-  margin-top: var(--space-lg);
-  overflow: hidden;
-  border-radius: var(--radius-lg);
-}
-
-
-.map-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
 .img {
     aspect-ratio: 1/1;
     width: 150px;
@@ -46,10 +27,8 @@
     background-position: center;
     background-size: cover;
     border-radius: var(--radius-img);
-    border: 4px solid var(--color-border2);
-   
+    border: 4px solid var(--color-border2); 
 }
-
 
 .topnav {
      top: 0;
@@ -64,11 +43,8 @@
     overflow: hidden;
     font-size: var(--font-size-md);
     font-weight: 600;
-   
-
 }
-
-
+ /*kontejnery*/
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, minmax(0,1fr));
@@ -90,10 +66,29 @@
     gap: var(--space-md);
     padding: var(--space-md);
 }
+
 .small-grid-container > div{
     padding: var(--space-sm);
     font-size: var(--font-size-md);
     text-align: left;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; 
+  margin-top: var(--space-lg);
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 /*sloupce*/
@@ -148,7 +143,7 @@
     margin-bottom: 30vh;
 }
 
-/*barvy borderů*/
+/*barvy*/
 
 .color0{border-left: 4px solid var(--color-borders);}
 .color1 {border-left: 4px solid var(--color-border2);}
@@ -159,6 +154,8 @@
 .small-color1{border-top: 4px solid var(--color-border2);}  
 .small-color2{border-top: 4px solid var(--color-border3);}  
 .small-color3{border-top: 4px solid var(--color-secondary);}  
+
+.text-color{color: var(--color-border3);}
 
 .text-color0{color: var(--color-borders);}
 .text-color1{color: var(--color-border2);}
@@ -188,9 +185,7 @@
   transform: translateY(-3px);
 }
 
-.text-color{
-  color: var(--color-border3);
-}
+ /*media queries*/
 
 @media (max-width: 1024px) {
     .grid-container, .small-grid-container {grid-template-columns: 1fr 1fr;}
