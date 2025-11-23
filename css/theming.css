@@ -9,6 +9,8 @@
   --color-border1: #e1e1e4f0;
   --color-border2: #299482F0;
   --color-border3: #A55E0DF0;
+  --color-container: rgba(0,0,0,0.04); 
+  --color-container-shadow: rgba(0,0,0,0.08);
   --color-gradient:  linear-gradient(90deg, #007bff, #00c6a7, #00ff99);
 
   /* === Typografie === */

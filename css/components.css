@@ -162,6 +162,12 @@
 .text-color2{color: var(--color-border3);}
 .text-color3{color: var(--color-secondary);}
 
+.container-color{
+  background-color: var(--color-container);
+    box-shadow: 0 4px 20px var(--color-container-shadow);
+    border-radius: 20px;
+}
+
 .backToTop {
   position: fixed;
   bottom: 20px;
