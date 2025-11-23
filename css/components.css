@@ -3,13 +3,7 @@
     box-sizing: border-box;
 }
 
-.home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+
 .contatcs{
     margin-bottom: var(--space-lg);
 }
@@ -79,7 +73,7 @@
   padding-top: 56.25%; 
   margin-top: var(--space-lg);
   overflow: hidden;
-  border-radius: var(--radius-lg);
+ 
 }
 
 .map-container iframe {
@@ -133,15 +127,7 @@
 
 /*odstrčení*/
 
-.card{
-    margin-bottom: 15vh;
-}
-.card-column{
-     margin-bottom: 30vh;
-}
-.card-more-columns{
-    margin-bottom: 30vh;
-}
+
 
 /*barvy*/
 
@@ -164,8 +150,7 @@
 
 .container-color{
   background-color: var(--color-container);
-    box-shadow: 0 4px 20px var(--color-container-shadow);
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .backToTop {
