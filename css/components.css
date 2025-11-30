@@ -125,10 +125,6 @@
     border-radius: var(--radius-lg);
 }
 
-/*odstrčení*/
-
-
-
 /*barvy*/
 
 .color0{border-left: 4px solid var(--color-borders);}
@@ -142,7 +138,6 @@
 .small-color3{border-top: 4px solid var(--color-secondary);}  
 
 .text-color{color: var(--color-border3);}
-
 .text-color0{color: var(--color-borders);}
 .text-color1{color: var(--color-border2);}
 .text-color2{color: var(--color-border3);}
