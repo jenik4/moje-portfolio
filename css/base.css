@@ -39,12 +39,7 @@ h2{
     
   }
 
-  footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+  
 
   section {
   display: block; 
@@ -55,7 +50,6 @@ h2{
 .small-grid-container h3 {
   text-align: center;
   justify-content: center;
-  display: flex;
   padding-left: 0; 
 }
 

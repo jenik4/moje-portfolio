@@ -1,16 +1,13 @@
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
-  
-  
+   
 }
 body{
       margin: 0;
       background-color: var(--color-neutral-100);
       font-family: var(--font-family-base);
      
-      
-      
 }
 
 .container {
